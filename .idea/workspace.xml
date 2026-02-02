@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aefb7ea9-ccdb-4adf-9717-03371750d8a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/basic_thread_tutorial/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/basic_thread_tutorial/Multithreaded_Main_Using_Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/basic_thread_tutorial/Multithreaded_Main_Using_Thread_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_pool_and_executors/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/RaceConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/SynchronizedBlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/SynchronizedMethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -40,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/LLD/LLD&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/LLD/LLD/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/LLD/LLD",
+    "onboarding.tips.debug.path": "D:/LLD/LLD/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\LLD\LLD\src\main\java\multithreading_and_concurrency\basic_thread_tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FutureExample">
+  <component name="RunManager" selected="Application.SynchronizedBlockDemo">
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread_pool_and_executors.EmailService" />
       <module name="LLD" />
@@ -95,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multithreading_and_concurrency.basic_thread_tutorial.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading_and_concurrency.basic_thread_tutorial.Main" />
+    <configuration name="SynchronizedBlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread_safety_and_synchronization.SynchronizedBlockDemo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading_and_concurrency.basic_thread_tutorial.*" />
+          <option name="PATTERN" value="thread_safety_and_synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multithreading_and_concurrency.basic_thread_tutorial.Multithreaded_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading_and_concurrency.basic_thread_tutorial.Multithreaded_Main" />
+    <configuration name="SynchronizedMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread_safety_and_synchronization.SynchronizedMethodDemo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading_and_concurrency.basic_thread_tutorial.*" />
+          <option name="PATTERN" value="thread_safety_and_synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedBlockDemo" />
+        <item itemvalue="Application.SynchronizedMethodDemo" />
         <item itemvalue="Application.FutureExample" />
         <item itemvalue="Application.EmailService" />
         <item itemvalue="Application.Multithreaded_Main_Using_Runnable" />
-        <item itemvalue="Application.multithreading_and_concurrency.basic_thread_tutorial.Multithreaded_Main" />
-        <item itemvalue="Application.multithreading_and_concurrency.basic_thread_tutorial.Main" />
       </list>
     </recent_temporary>
   </component>
