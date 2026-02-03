@@ -1,4 +1,4 @@
-package thread_safety_and_synchronization;
+package multithreading_and_concurrency.thread_safety_and_synchronization;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

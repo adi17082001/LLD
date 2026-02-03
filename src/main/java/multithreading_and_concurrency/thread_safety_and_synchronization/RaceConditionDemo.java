@@ -1,6 +1,4 @@
-package thread_safety_and_synchronization;
-
-import java.util.concurrent.*;
+package multithreading_and_concurrency.thread_safety_and_synchronization;
 
 /**
  * two threads are incrementing the same counter at the same time,

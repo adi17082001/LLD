@@ -1,4 +1,4 @@
-package thread_pool_and_executors;
+package multithreading_and_concurrency.thread_pool_and_executors;
 
 import java.util.concurrent.*;
 

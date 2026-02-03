@@ -1,29 +1,26 @@
-package thread_safety_and_synchronization;
+package multithreading_and_concurrency.thread_safety_and_synchronization;
 
-class SafeCounterBlockDemo {
+
+class SafeCounter {
     private int count = 0;
 
-    public void increment() {
-        // Lock only the code that truly needs protection
-        synchronized (this) {
-            count++;
-        }
+    // Entire method is protected by the instance’s monitor lock
+    public synchronized void increment() {
+        count++;          // atomic under the lock
     }
 
-    public int getCount() {
-        // No lock needed for simple read, or use block if strict consistency required
+    public synchronized int getCount() {
         return count;
     }
 }
 
-
-public class SynchronizedBlockDemo {
+class SynchronizedMethodDemo {
     public static void main(String[] args) throws InterruptedException {
         // Create a shared counter
         // PurchaseCounter counter = new PurchaseCounter();
 
         // Use SafeCounter instead of the previous counter
-        SafeCounterBlockDemo counter = new SafeCounterBlockDemo();
+        SafeCounter counter = new SafeCounter();
         // Task that bumps the counter 1000 times
         Runnable task = () -> {
             for (int i = 0; i < 1000; i++) {
@@ -43,4 +40,3 @@ public class SynchronizedBlockDemo {
         System.out.println("Final Count: " + counter.getCount());
     }
 }
-

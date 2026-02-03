@@ -1,6 +1,5 @@
 package multithreading_and_concurrency.basic_thread_tutorial;
 
-import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
