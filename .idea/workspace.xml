@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aefb7ea9-ccdb-4adf-9717-03371750d8a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/locks_and_synchronization_mechanism/ExpiringReentrantLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/locks_and_synchronization_mechanism/ReadWriteLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/locks_and_synchronization_mechanism/ReentrantLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/locks_and_synchronization_mechanism/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/locks_and_synchronization_mechanism/TryLockWithTimeoutExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/basic_thread_tutorial/Multithreaded_Main_Using_Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/basic_thread_tutorial/Multithreaded_Main_Using_Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_pool_and_executors/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/thread_pool_and_executors/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/thread_safety_and_synchronization/AtomicIntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/RaceConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/thread_safety_and_synchronization/RaceConditionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/SynchronizedBlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/thread_safety_and_synchronization/SynchronizedBlockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_safety_and_synchronization/SynchronizedMethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading_and_concurrency/thread_safety_and_synchronization/SynchronizedMethodDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
